@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Review Form</title>
+    </head>
+
+    <body>
+        <div class="harsh">
+            <h1>Product Review</h1><br><br>
+                <form class="data">
+                    <label>First Name</label><br>
+                    <input type="text" placeholder="Enter Your First Name"><br><br>
+                    <label>Last Name</label><br>
+                    <input type="text" placeholder="Enter Your Last Name"><br><br>
+                    <label>Username</label><br>
+                    <input type="email" placeholder="Enter Your Username"><br><br>
+            
+                    <label><h4>Which Product are you reviewing</h4></label>
+                    <input type="text" Name="product" list="review" placeholder="Please Choose"><br><br>
+                    <datalist id="review">
+                        <option value="Trimmer"></option>
+                        <option value="Shoes"></option>
+                        <option value="Watches"></option>
+                        <option value="Clothes"></option>
+                        <option value="Mobiles"></option>
+                        <option value="Headphones"></option>
+                    </datalist>
+                    <label>review</label><br>
+                    <input type="text"><br><br>
+                    <input class="clickbox" type="checkbox">
+                    <lable>I red carefully</lable><br><br>
+
+                    <button class="submit" type="submit">Submit</button>
+                    
+                      
+                    
+                </form>
+        </div>
+    </body>
+</html>
