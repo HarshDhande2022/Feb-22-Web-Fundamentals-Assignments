@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(208, 208, 208);
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    
+}
+img {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 10px;
+    
+}
+.menu_bar {
+    color: grey;
+}
+.heading {
+    position: relative;
+    left: 65px;
+    bottom: 40px;
+}
+.bold {
+    font-size: 17px;
+}
+td {
+    padding: 30px;
+}
+.two {
+    position: relative;
+    bottom: 90px;
+    left: 300px;
+}
+button {
+    position: absolute;
+    top: 20px;
+    left: 70vw;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+}
+#main {
+    margin-top: 80px;
+}
+.p2 {
+    position: relative;
+    bottom: 45px;
+    left: 68px;
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 10px;
+}
+#link_1 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+hr {
+    position: relative;
+    width: 70%;
+    right: 15rem;
+    left: 4px;
+    top: 12px;
+   
+}
+a {
+    position: relative;
+    top: 15px;
+}
+main {
+    margin-left: 80px;
+}
+table {
+    height: 5vh;
+    text-align: center;
+}
+section {
+    margin-left: 80px;
+}
+article {
+    margin-left: 80px;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+button{
+    cursor: pointer;
+}
+
+
