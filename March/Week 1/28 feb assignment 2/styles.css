@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(./bg.jpg);
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    font-family: sans-serif;
+    color: white;
+}
+.nav-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 3;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.poem {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    text-align: center; 
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.brief {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;  
+}
+.pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.authority {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+a:hover {
+    background-color: chartreuse;
+}
